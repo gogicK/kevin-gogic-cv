@@ -13,9 +13,9 @@ export default function Home() {
             <div className="col-span-1 flex items-center justify-end"><Contact /></div>
             <hr className="col-span-5 border-2 rounded border-indigo-500" />
             <div className="col-span-1"><Competences /></div>
-            <div className="col-span-4"><Experiences /></div>
+            <div className="col-span-4 ml-3"><Experiences /></div>
             <div className="col-span-1"><Langues /></div>
-            <div className="col-span-4"><Formations /></div>
+            <div className="col-span-4 ml-3"><Formations /></div>
         </main>
     );
 }

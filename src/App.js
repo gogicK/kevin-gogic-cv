@@ -1,8 +1,10 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import Home from "./Routes/Home";
-import About from "./Routes/About";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import TicToc from './routes/Game/TicToc';
 import Navbar from './Components/Navbar';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/tictoc" element={<TicToc />} />
       </Routes>
     </>
   );
