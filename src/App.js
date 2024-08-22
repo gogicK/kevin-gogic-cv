@@ -1,9 +1,8 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import About from "./routes/About";
-import Home from "./routes/Home";
-import Navbar from './Navbar';
-import TicToc from './routes/Game/TicToc';
+import Home from "./Routes/Home";
+import About from "./Routes/About";
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/Game/TicToc" element={<TicToc />} />
       </Routes>
     </>
   );
