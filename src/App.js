@@ -11,9 +11,9 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/tictoc" element={<TicToc />} />
+        <Route path="/kevin-gogic-cv" element={<Home />} />
+        <Route path="/kevin-gogic-cv/about" element={<About />} />
+        <Route path="/kevin-gogic-cv/tictoc" element={<TicToc />} />
       </Routes>
     </>
   );

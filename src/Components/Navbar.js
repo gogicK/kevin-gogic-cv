@@ -4,9 +4,9 @@ const Navbar = () => {
       return (
             <nav className="flex sm:justify-center space-x-4">
                   {[
-                        ['Home', '/'],
-                        ['About', '/about'],
-                        ['TicToc', '/tictoc'],
+                        ['Home', '/kevin-gogic-cv'],
+                        ['About', '/kevin-gogic-cv/about'],
+                        ['TicToc', '/kevin-gogic-cv/tictoc'],
                   ].map(([title, url]) => (
                         <Link to={url} className="rounded-lg px-3 py-2 text-slate-700 font-medium hover:bg-slate-100 hover:text-slate-900">
                               {title}
