@@ -2,7 +2,7 @@
 const Data = {
     fullname: "Kevin Gogic",
     title: "Développeur Web",
-    email: "kevin.gogic@example.com",
+    email: "kevin.gogic@gmail.com",
     phone: "06.48.06.06.54",
     location: "La Seyne-sur-mer, France",
     permis: "Permis B",

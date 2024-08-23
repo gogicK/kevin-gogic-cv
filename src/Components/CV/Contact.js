@@ -13,7 +13,7 @@ export default function Contact() {
             {/*<h2 className="font-caveat font-bold text-2xl text-indigo-500">Contact</h2>*/}
             <ul className="">
                 {contactData.map((contact, index) => (
-                    <li className="flex" alt={contact.label} key={index}>
+                    <li className="flex items-center" alt={contact.label} key={index}>
                         <span className="font-bold">{contact.icon}</span>
                         <span className="ml-2 text-slate-500">{contact.value}</span>
                     </li>

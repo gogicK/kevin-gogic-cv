@@ -4,7 +4,7 @@ import ProgressBar from "../ProgressBar";
 export default function Langues() {
     return (
         <>
-            <h2 className="font-caveat font-bold text-2xl text-indigo-500">Langues</h2>
+            <h2 className="font-bold text-2xl text-indigo-500">Langues</h2>
             <ul className="m-3">
                 {
                     Data.languages.map((language, index) => (
