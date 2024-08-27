@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./kevin-gogic-cv/static/css/main.9b285354.css",
-    "main.js": "./kevin-gogic-cv/static/js/main.88f59d5f.js",
-    "static/media/background.jpg": "./kevin-gogic-cv/static/media/background.c25648af0ab51b042886.jpg",
-    "index.html": "./kevin-gogic-cv/index.html",
-    "main.9b285354.css.map": "./kevin-gogic-cv/static/css/main.9b285354.css.map",
-    "main.88f59d5f.js.map": "./kevin-gogic-cv/static/js/main.88f59d5f.js.map"
+    "main.css": "./static/css/main.9b285354.css",
+    "main.js": "./static/js/main.80da9165.js",
+    "static/media/background.jpg": "./static/media/background.c25648af0ab51b042886.jpg",
+    "index.html": "./index.html",
+    "main.9b285354.css.map": "./static/css/main.9b285354.css.map",
+    "main.80da9165.js.map": "./static/js/main.80da9165.js.map"
   },
   "entrypoints": [
     "static/css/main.9b285354.css",
-    "static/js/main.88f59d5f.js"
+    "static/js/main.80da9165.js"
   ]
 }
