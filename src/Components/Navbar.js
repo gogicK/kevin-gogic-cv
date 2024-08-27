@@ -9,7 +9,7 @@ const Navbar = () => {
                   <div className="absolute left-0 top-4">{Icon.logo}</div>
                   <ul className="ps-0 hidden text-center lg:!flex lg:!items-center lg:!justify-items-center lg:space-x-4 peer-checked:ml-0 peer-checked:block  peer-checked:space-y-4 lg:!space-y-0" id="menu">
                         {[
-                              ['Accueil', '/kevin-gogic-cv'],
+                              ['Accueil', '/kevin-gogic-cv/'],
                               ['Portfolio', '/kevin-gogic-cv/home'],
                               ['À propos', '/kevin-gogic-cv/about'],
                         ].map(([title, url], index) => (
