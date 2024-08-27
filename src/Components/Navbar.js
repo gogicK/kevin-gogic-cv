@@ -9,9 +9,9 @@ const Navbar = () => {
                   <div className="absolute left-0 top-4">{Icon.logo}</div>
                   <ul className="ps-0 hidden text-center lg:!flex lg:!items-center lg:!justify-items-center lg:space-x-4 peer-checked:ml-0 peer-checked:block  peer-checked:space-y-4 lg:!space-y-0" id="menu">
                         {[
-                              ['Accueil', '/'],
-                              ['Portfolio', '/home'],
-                              ['À propos', '/about'],
+                              ['Accueil', '/kevin-gogic-cv'],
+                              ['Portfolio', '/kevin-gogic-cv/home'],
+                              ['À propos', '/kevin-gogic-cv/about'],
                         ].map(([title, url], index) => (
                               <li key={index}>
                                     <Link to={url} className="rounded-lg px-3 py-2 text-slate-700 hover:bg-indigo-500 hover:text-white">
@@ -28,7 +28,7 @@ const Navbar = () => {
                               <DownloadButton url={process.env.PUBLIC_URL + '/kevin-gogic-cv-dev.pdf'} label="Téléchargez mon CV" />
                         </li>
                         <li>
-                              <Link to={'/contact'} className="rounded-lg px-3 py-2 text-indigo-500 border-indigo-500 border-2 hover:bg-indigo-500 hover:text-white">
+                              <Link to={'/kevin-gogic-cv/contact'} className="rounded-lg px-3 py-2 text-indigo-500 border-indigo-500 border-2 hover:bg-indigo-500 hover:text-white">
                                     Contactez-moi
                               </Link>
                         </li>
