@@ -25,7 +25,7 @@ const Navbar = () => {
                               </Link>
                         </li>
                         <li>
-                              <DownloadButton url={process.env.PUBLIC_URL + '/kevin-gogic-cv-dev.pdf'} label="Téléchargez mon CV" />
+                              <DownloadButton url={process.env.PUBLIC_URL + '/gogic-kevin-cv-dev.pdf'} label="Téléchargez mon CV" />
                         </li>
                         <li>
                               <Link to={'/kevin-gogic-cv/contact'} className="rounded-lg px-3 py-2 text-indigo-500 border-indigo-500 border-2 hover:bg-indigo-500 hover:text-white">

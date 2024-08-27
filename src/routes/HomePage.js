@@ -31,9 +31,9 @@ export default function HomePage() {
                             Je suis particulièrement <b>attentif</b> <span className="text-rose-500">à la qualité du code, à la maintenabilité des solutions</span> que je propose, et à la <span className="text-rose-500">satisfaction des utilisateurs</span> finaux.
                         </p>
                     </div>
-                    <div className="col-span-1 flex justify-center items-center"><img className="max-w-96 max-h-96 border-black border-2 rounded-full md:max-w-[70%] sm:max-w-[50%]" alt="capybara developpeur" src={process.env.PUBLIC_URL + 'capybara-developpeur.png'} /></div>
+                    <div className="col-span-1 flex justify-center items-center"><img className="max-w-96 max-h-96 border-black border-2 rounded-full md:max-w-[70%] sm:max-w-[50%]" alt="capybara developpeur" src={process.env.PUBLIC_URL + '/capybara-developpeur.png'} /></div>
                     <hr className="col-span-3 border-pink-500 border-2 mx-20" />
-                    <div className="col-span-1 flex justify-center items-center"><img className="max-w-96 max-h-96 border-black border-2 rounded-full md:max-w-[70%] sm:max-w-[50%]" alt="capybara peintre" src={process.env.PUBLIC_URL + 'capybara-peintre.png'} /></div>
+                    <div className="col-span-1 flex justify-center items-center"><img className="max-w-96 max-h-96 border-black border-2 rounded-full md:max-w-[70%] sm:max-w-[50%]" alt="capybara peintre" src={process.env.PUBLIC_URL + '/capybara-peintre.png'} /></div>
                     <div className="col-span-2 p-20 flex flex-col justify-center gap-4">
                         <h2 className="text-4xl text-indigo-500">Designer</h2>
                         <p className="italic indent-12 text-justify">
