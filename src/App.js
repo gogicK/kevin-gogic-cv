@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import Home from "./routes/Home";
+import CVA4 from "./routes/CVA4";
 import About from "./routes/About";
 import HomePage from "./routes/HomePage";
 import Contact from "./routes/Contact";
@@ -12,10 +12,10 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/kevin-gogic-cv" element={<Home />} />
-        <Route path="/kevin-gogic-cv/home" element={<HomePage />} />
-        <Route path="/kevin-gogic-cv/about" element={<About />} />
-        <Route path="/kevin-gogic-cv/contact" element={<Contact />} />
+        <Route path="/kevin-webdev" element={<HomePage />} />
+        <Route path="/kevin-webdev/cvA4" element={<CVA4 />} />
+        <Route path="/kevin-webdev/about" element={<About />} />
+        <Route path="/kevin-webdev/contact" element={<Contact />} />
       </Routes>
     </>
   );

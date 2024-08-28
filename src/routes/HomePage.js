@@ -1,13 +1,13 @@
 import TypeWriterV2 from "../Hooks/useTypewriterV2.js";
+import Contact from "../routes/Contact.js";
 
 
 export default function HomePage() {
 
     return (
         <>
-            <main className="font-poppins w-full ">
-                <section
-                    className="bg-hero h-[calc(100vh-76px)] w-full mx-auto xl:px-16 xs:px-8 flex md:flex-row xs:flex-col gap-4 justify-center items-center">
+            <main className="font-poppins w-full overflow-y-scroll h-[calc(100vh-76px)] relative snap-y snap-mandatory">
+                <section className="snap-start bg-hero h-[calc(100vh-76px)] w-full mx-auto xl:px-16 xs:px-8 flex md:flex-row xs:flex-col gap-4 justify-center items-center">
                     <div className="w-1/3">
                         <img className="border-black border-2 rounded-full md:max-w-[100%] sm:max-w-[70%] xs:max-w-[80%] mx-auto" src={process.env.PUBLIC_URL + '/kevin-gogic-pixel.png'} alt="kevin-gogic-profile" />
                     </div>
@@ -20,8 +20,7 @@ export default function HomePage() {
                         </div>
                     </div>
                 </section>
-                <section
-                    className="h-[calc(100vh-76px)] w-full grid grid-cols-3 bg-gray-100">
+                <section className="snap-start h-[calc(100vh-76px)] w-full grid grid-cols-3 bg-gray-100">
                     <div className="col-span-2 p-20 flex flex-col justify-center gap-4">
                         <h2 className="text-4xl text-indigo-500">Développeur</h2>
                         <p className="italic indent-12 text-justify">
@@ -42,7 +41,7 @@ export default function HomePage() {
                         </p>
                     </div>
                 </section>
-                <section className="h-[calc(100vh-76px)] w-full bg-gradient-to-r from-indigo-500 to-rose-500 p-10">
+                <section className="snap-start h-[calc(100vh-76px)] w-full bg-gradient-to-r from-indigo-500 to-rose-500 p-10">
                     <h2 className="text-4xl text-white text-center underline">Compétences</h2>
                     <div className="grid grid-cols-3 gap-4">
                         <section className="col-span-2">
@@ -85,9 +84,8 @@ export default function HomePage() {
                         </section>
                     </div>
                 </section>
-                <section className="h-[calc(100vh-76px)] w-full bg-gray-100">
-                    Formulaire de contact
-                </section>
+                <Contact />
+
             </main >
         </>
     );
