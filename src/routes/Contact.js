@@ -49,8 +49,8 @@ export default function Contact() {
                                 <li className="flex">
                                     <div className="flex h-10 w-10 items-center justify-center rounded bg-indigo-500 text-gray-50">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round" className="h-6 w-6">
+                                            fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"
+                                            strokeLinejoin="round" className="h-6 w-6">
                                             <path
                                                 d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2">
                                             </path>
@@ -73,10 +73,10 @@ export default function Contact() {
                                 <div className="mb-6">
                                     <div className="mx-0 mb-1 sm:mb-4">
                                         <div className="mx-0 mb-1 sm:mb-4">
-                                            <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Votre nom" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-600 sm:mb-0" name="name" required />
+                                            <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autoComplete="given-name" placeholder="Votre nom" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-600 sm:mb-0" name="name" required />
                                         </div>
                                         <div className="mx-0 mb-1 sm:mb-4">
-                                            <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Votre adresse mail" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-600 sm:mb-0" name="email" required />
+                                            <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autoComplete="email" placeholder="Votre adresse mail" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-600 sm:mb-0" name="email" required />
                                         </div>
                                     </div>
                                     <div className="mx-0 mb-1 sm:mb-4">
