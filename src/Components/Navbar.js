@@ -20,7 +20,7 @@ const Navbar = () => {
                               </li>
                         ))}
                         <li>
-                              <Link target="_blank" to={'https://github.com/gogicK/kevin-gogic-webdev'} className="rounded-lg px-3 py-2 text-indigo-500 border-indigo-500 border-2 hover:bg-indigo-500 hover:text-white">
+                              <Link target="_blank" to={'https://github.com/gogicK/kevin-webdev'} className="rounded-lg px-3 py-2 text-indigo-500 border-indigo-500 border-2 hover:bg-indigo-500 hover:text-white">
                                     Regardez le code
                               </Link>
                         </li>
