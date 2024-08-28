@@ -27,12 +27,12 @@ export default function Contact() {
     };
 
     return (
-        <section className="snap-start h-[calc(100vh-76px)] w-full bg-blue-50 dark:bg-slate-800" id="contact">
+        <section className="font-poppins snap-start h-[calc(100vh-76px)] w-full bg-blue-50 dark:bg-slate-800" id="contact">
             <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
                 <div className="mb-4">
                     <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
                         <h2
-                            className="font-heading mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
+                            className="mb-4 font-bold tracking-tight text-gray-900 dark:text-white text-3xl sm:text-5xl">
                             Restons en Contact
                         </h2>
                     </div>
@@ -73,14 +73,14 @@ export default function Contact() {
                                 <div className="mb-6">
                                     <div className="mx-0 mb-1 sm:mb-4">
                                         <div className="mx-0 mb-1 sm:mb-4">
-                                            <label for="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Votre nom" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-600 sm:mb-0" name="name" />
+                                            <label htmlFor="name" className="pb-1 text-xs uppercase tracking-wider"></label><input type="text" id="name" autocomplete="given-name" placeholder="Votre nom" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-600 sm:mb-0" name="name" required />
                                         </div>
                                         <div className="mx-0 mb-1 sm:mb-4">
-                                            <label for="email" className="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Votre adresse mail" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-600 sm:mb-0" name="email" />
+                                            <label htmlFor="email" className="pb-1 text-xs uppercase tracking-wider"></label><input type="email" id="email" autocomplete="email" placeholder="Votre adresse mail" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-600 sm:mb-0" name="email" required />
                                         </div>
                                     </div>
                                     <div className="mx-0 mb-1 sm:mb-4">
-                                        <label for="message" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="message" name="message" cols="30" rows="5" placeholder="Écrivez-moi un message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-600 sm:mb-0"></textarea>
+                                        <label htmlFor="message" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="message" name="message" cols="30" rows="5" placeholder="Écrivez-moi un message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-gray-600 sm:mb-0" required></textarea>
                                     </div>
                                 </div>
                                 <div className="text-center">
