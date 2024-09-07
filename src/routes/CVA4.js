@@ -1,6 +1,6 @@
 import Header from "../Components/CV/Header.js";
 import Contact from "../Components/CV/InfosContact.js";
-import Langues from "../Components/CV/Langues.js";
+import LanguesHobbies from "../Components/CV/LanguesHobbies.js";
 import Experiences from "../Components/CV/Experiences.js";
 import Formations from "../Components/CV/Formations.js";
 import Competences from "../Components/CV/Competences.js";
@@ -15,7 +15,7 @@ export default function CVA4() {
             <div className="mb-3 order-4 lg:order-5 col-span-9 ml-3"><Experiences /></div>
             <div className="mb-3 order-5 lg:order-7 col-span-9 ml-3"><Formations /></div>
             <div className="mb-3 order-6 lg:order-4 col-span-3"><Competences /></div>
-            <div className="order-7 lg:order-6 col-span-3"><Langues /></div>
+            <div className="order-7 lg:order-6 col-span-3"><LanguesHobbies /></div>
         </main>
     );
 }

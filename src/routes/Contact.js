@@ -27,7 +27,7 @@ export default function Contact() {
     };
 
     return (
-        <section className="font-poppins snap-start h-[calc(100vh-76px)] w-full bg-blue-50 dark:bg-slate-800" id="contact">
+        <section className="font-poppins snap-start min-h-[calc(100vh-76px)] w-full bg-blue-50 dark:bg-slate-800" id="contact">
             <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
                 <div className="mb-4">
                     <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
@@ -41,7 +41,7 @@ export default function Contact() {
                     <div className="grid md:grid-cols-2">
                         <div className="h-full pr-6">
                             <p className="mt-3 mb-12 text-lg text-gray-600 dark:text-slate-400 indent-8 text-justify">
-                                Vous avez un projet en tête ou des questions sur mes services ? Je suis ici pour vous aider à transformer vos idées en réalité. Que vous souhaitiez discuter d'un futur projet, obtenir des informations supplémentaires ou simplement dire bonjour, n'hésitez pas à me contacter !
+                                Vous avez un projet en tête ou des questions sur mes services ? Je suis ici pour vous aider à transformer vos idées en réalité. Que vous souhaitiez discuter d'un futur projet, obtenir des informations supplémentaires, n'hésitez pas à me contacter !
                                 Remplissez le formulaire ci-dessous, et je vous répondrai dans les plus brefs délais. Vous pouvez également me joindre directement par mail/téléphone. Je suis impatient de collaborer avec vous et d'apporter mon expertise à votre prochain projet.<br />
                                 Merci pour votre visite, et à bientôt !
                             </p>

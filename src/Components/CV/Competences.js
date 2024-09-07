@@ -2,41 +2,31 @@ import Data from "../../Data";
 import ProgressBar from "../ProgressBar";
 
 export default function Competences() {
+    const skillsData = [
+        { title: "Langages informatique", skills: Data.skills },
+        { title: "Frameworks", skills: Data.frameworks },
+        { title: "Outils", skills: Data.tools }
+    ];
+
     return (
-        <>
-            <h2 className="font-bold text-2xl text-indigo-500">Langage informatique</h2>
-            <ul className="m-3">
-                {
-                    Data.skills.map((skill, index) => (
-                        <li className="font-bold text-slate-900" key={index}>
-                            {skill.name}
-                            <ProgressBar level={skill.level} />
-                        </li>
-                    ))
-                }
-            </ul>
-            <h2 className="font-bold text-2xl text-indigo-500">Frameworks</h2>
-            <ul className="m-3">
-                {
-                    Data.frameworks.map((framework, index) => (
-                        <li className="font-bold text-slate-900" key={index}>
-                            {framework.name}
-                            <ProgressBar level={framework.level} />
-                        </li>
-                    ))
-                }
-            </ul>
-            <h2 className="font-bold text-2xl text-indigo-500">Outils</h2>
-            <ul className="m-3">
-                {
-                    Data.tools.map((tool, index) => (
-                        <li className="font-bold text-slate-900" key={index}>
-                            {tool.name}
-                            <ProgressBar level={tool.level} />
-                        </li>
-                    ))
-                }
-            </ul>
-        </>
+        <section>
+            {
+                skillsData.map((skillsData, indexUl) => (
+                    <section key={indexUl}>
+                        <h2>{skillsData.title}</h2>
+                        <ul className="m-3">
+                            {
+                                skillsData.skills.map((skill, indexLi) => (
+                                    <li key={indexLi}>
+                                        <h3 className="text-black font-semibold text-base">{skill.name}</h3>
+                                        <ProgressBar level={skill.level} />
+                                    </li>
+                                ))
+                            }
+                        </ul>
+                    </section>
+                ))
+            }
+        </section>
     );
 }

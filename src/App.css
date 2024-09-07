@@ -3,8 +3,63 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
+@layer base {
+  html {
+    @apply font-poppins;
+  }
+
+  body {
+    @apply bg-white text-black;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply text-primary;
+  }
+
+  h1 {
+    @apply text-4xl font-semibold;
+  }
+
+  h2 {
+    @apply text-3xl font-semibold;
+  }
+
+  h3 {
+    @apply text-2xl font-semibold;
+  }
+
+  h4 {
+    @apply text-xl font-semibold;
+  }
+
+  h5 {
+    @apply text-lg font-semibold;
+  }
+
+  p {
+    @apply text-base;
+  }
+}
+
 @layer components {
   .btn-primary {
-    @apply py-2 px-5 bg-violet-500 text-white font-semibold rounded-full shadow-md hover:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-400 focus:ring-opacity-75;
+    @apply py-2 px-5 bg-primary text-white font-semibold rounded-md shadow-md hover:bg-primaryDark;
+  }
+
+  .btn-primary-reverse {
+    @apply py-2 px-5 bg-white text-primary font-semibold border-2 border-primary rounded-xl shadow-md hover:bg-primary hover:text-white;
+  }
+
+  .btn-secondaryDark {
+    @apply py-2 px-5 bg-secondaryDark text-white font-semibold rounded-lg shadow-md hover:bg-secondaryDarkDark;
+  }
+
+  .btn-secondaryDark-reverse {
+    @apply py-2 px-5 bg-white text-secondaryDark font-semibold border-2 border-secondaryDark rounded-xl shadow-md hover:bg-secondaryDark;
   }
 }

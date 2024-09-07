@@ -13,16 +13,20 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#3490dc",
-        secondary: "#ffed4a",
-        danger: "#e3342f"
+        primary: "#6366f1",
+        primaryDark: "#4338ca",
+        secondary: "#6abaa3",
+        secondaryDark: "#136b57",
+        white: "#F2F3F5",
+        black: "#1f2937",
+        blackLight: "#64748b",
       },
       fontFamily: {
         poppins: ["Poppins", ...defaultTheme.fontFamily.sans]
       },
       backgroundImage: {
-        'hero': "url('../public/background.jpg')",
-        'pattern': "url('../public/pattern.svg')"
+        'hero': "url('../public/images/background.jpg')",
+        'pattern': "url('../public/images/pattern.svg')"
       },
     },
   },

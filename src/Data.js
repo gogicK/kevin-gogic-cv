@@ -7,24 +7,24 @@ const Data = {
     location: "La Seyne-sur-mer, France",
     permis: "Permis B",
     skills: [
-        { name: "HTML/CSS/JS", level: 95 },
-        { name: "PostgreSQL/MongoDB", level: 85 },
-        { name: "PHP", level: 75 },
+        { name: "HTML5 - CSS3 - JS", level: 90 },
+        { name: "PostgreSQL - MongoDB - SQL", level: 80 },
+        { name: "PHP", level: 70 },
     ],
     languages: [
-        { name: "Français", level: 100 },
-        { name: "Anglais", level: 85 },
-        { name: "Espagnol", level: 50 }
+        { name: "Français", level: "Courant" },
+        { name: "Anglais", level: "Intermédiaire" },
+        { name: "Espagnol", level: "Pré-Intermédiaire" }
     ],
     frameworks: [
-        { name: "React", level: 90 },
-        { name: "Tailwind/Bootstrap", level: 90 },
-        { name: "Express/Laravel", level: 70 },
+        { name: "Tailwind - Bootstrap", level: 90 },
+        { name: "React", level: 70 },
+        { name: "Express - Laravel", level: 70 },
     ],
     tools: [
-        { name: "GitLab/GitHub/SVN", level: 100 },
-        { name: "Microsoft Office", level: 100 },
+        { name: "GitLab - GitHub - SVN", level: 100 },
         { name: "Docker", level: 80 },
+        { name: "Gimp - InkScape", level: 60 },
     ],
     interets: ["Escalade", "Échec", "Jeux Vidéo"],
     experiences: [
@@ -56,13 +56,13 @@ const Data = {
     formations: [
         {
             degree: "Expertise en technologie de l'information (Bac+3)",
-            university: "EPITECH",
+            university: "EPITECH - Marseille",
             graduationYear: "2012 - 2016",
             description: "Développement informatique, apprentissage par la pratique, pédagogie par projets, travail en groupe. +6 mois au Mexique dans une université internationnale",
         },
         {
             degree: "BTS Electronique",
-            university: "Lycée Rouvière",
+            university: "Lycée Rouvière - Toulon",
             graduationYear: "2010 - 2011",
         },
     ]
