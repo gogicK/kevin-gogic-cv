@@ -10,7 +10,7 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <>
-      <Navbar />
+      {/** <Navbar />*/}
       <Routes>
         <Route path="/kevin-webdev" element={<HomePage />} />
         <Route path="/kevin-webdev/cvA4" element={<CVA4 />} />
