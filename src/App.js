@@ -1,8 +1,8 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import CVA4 from "./routes/CVA4";
+import CVA4 from "./routes/HomePage";
 import About from "./routes/About";
-import HomePage from "./routes/HomePage";
+import HomePage from "./routes/CVA4";
 import Contact from "./routes/Contact";
 import Navbar from './Components/Navbar';
 
