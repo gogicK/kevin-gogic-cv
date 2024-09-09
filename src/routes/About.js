@@ -2,7 +2,7 @@ export default function About() {
     return (
         <>
             <div className="bg-pattern">
-                <section className='font-poppins flex flex-col justify-center items-center px-20 md:px-40 h-[calc(100vh-76px)] space-y-4 leading-relaxed'>
+                <section className='font-poppins flex flex-col justify-center items-center px-10 lg:px-40 min-h-[calc(100vh-76px)] space-y-4 leading-relaxed'>
                     <div className="bg-white p-8 shadow-xl rounded-xl">
                         <div>
                             <h1 className="p-4">A propos de ce site</h1>

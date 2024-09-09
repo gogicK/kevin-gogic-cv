@@ -26,6 +26,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero': "url('../public/images/background.jpg')",
+        'underConstruction': "url('../public/images/under-construction.png')",
         'pattern': "url('../public/images/pattern.svg')"
       },
     },

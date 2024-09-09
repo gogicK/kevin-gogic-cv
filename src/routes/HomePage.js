@@ -1,5 +1,5 @@
 import Contact from "../routes/Contact.js";
-import Skills from "../Components/HomePage/Skills.js";
+import UnderConstruction from "../Components/HomePage/UnderConstruction.js";
 import Header from "../Components/HomePage/Header.js";
 import Description from "../Components/HomePage/Description.js";
 import InformationToast from "../Components/HomePage/InformationToast.js";
@@ -12,7 +12,9 @@ export default function HomePage() {
                 <InformationToast />
                 <Header />
                 <Description />
-                <Skills />
+                {/**  import Skills from "../Components/HomePage/Skills.js"; <Skills /> */}
+                <UnderConstruction />
+
                 <Contact />
             </main >
         </>

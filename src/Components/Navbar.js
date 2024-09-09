@@ -6,8 +6,8 @@ const Navbar = () => {
       return (
             <nav className="font-poppins font-bold flex items-center lg:justify-end space-x-4 justify-center min-h-[76px] p-4 sticky top-0 z-10 bg-white shadow-xl">
                   <input className="peer hidden" type="checkbox" id="menu-toggle" />
-                  <div className="absolute left-0 top-4">{Icon.logo}</div>
-                  <ul className="ps-0 hidden text-center lg:!flex lg:!items-center lg:!justify-items-center lg:space-x-4 peer-checked:ml-0 peer-checked:block  peer-checked:space-y-4 lg:!space-y-0" id="menu">
+                  <div className="absolute left-0 top-4"><Link to={'/kevin-webdev/'} >{Icon.logo}</Link></div>
+                  <ul className="ps-0 hidden text-center lg:!flex lg:!items-center lg:!justify-center lg:space-x-4 peer-checked:ml-0 peer-checked:block  peer-checked:space-y-6 lg:!space-y-0" id="menu">
                         {[
                               ['Accueil', '/kevin-webdev/'],
                               ['CV classique', '/kevin-webdev/cvA4'],
