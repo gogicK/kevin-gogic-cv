@@ -12,9 +12,7 @@ export default function HomePage() {
                 <InformationToast />
                 <Header />
                 <Description />
-                {/**  import Skills from "../Components/HomePage/Skills.js"; <Skills /> */}
                 <UnderConstruction />
-
                 <Contact />
             </main >
         </>

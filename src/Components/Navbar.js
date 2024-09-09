@@ -35,7 +35,7 @@ const Navbar = () => {
                   </ul>
                   <label htmlFor="menu-toggle" className="cursor-pointer lg:hidden block absolute top-4 right-4">
                         <svg
-                              className="fill-current text-gray-900"
+                              className="animate-[wiggle_2s_linear_infinite] fill-current text-gray-900"
                               xmlns="http://www.w3.org/2000/svg"
                               width="40"
                               height="40"
