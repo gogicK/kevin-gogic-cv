@@ -1,10 +1,10 @@
 import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-
 import { createBrowserRouter, Navigate, RouterProvider } from 'react-router-dom'
 import HomePage from './routes/HomePage';
 import About from './routes/About';
 import CVA4 from './routes/CVA4';
+import Contact from './routes/Contact';
 
 const router = createBrowserRouter([
   {
@@ -17,12 +17,16 @@ const router = createBrowserRouter([
     element: <CVA4 />
   },
   {
+    path: "/kevin-webdev/contact",
+    element: <Contact />
+  },
+  {
     path: "/kevin-webdev/about",
     element: <About />
   },
   {
     path: "*",
-    element: <Navigate to="/" replace />
+    element: <Navigate to="/kevin-webdev" replace />
   }
 ]);
 
