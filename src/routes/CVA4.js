@@ -5,6 +5,8 @@ import Experiences from "../Components/CV/Experiences.js";
 import Formations from "../Components/CV/Formations.js";
 import Competences from "../Components/CV/Competences.js";
 import Navbar from '../Components/Navbar';
+import '../App.css';
+
 
 
 export default function CVA4() {
