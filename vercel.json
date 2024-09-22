@@ -3,7 +3,7 @@
     "rewrites": [
         {
             "source": "/_error",
-            "destination": "/kevin-webdev"
+            "destination": "https://kevin-webdev-q1bi.vercel.app/kevin-webdev"
         }
     ]
 }
