@@ -1,6 +1,4 @@
 import React from 'react';
-import Navbar from '../Components/Navbar';
-import '../App.css';
 
 export default function Contact() {
     const [result, setResult] = React.useState("");
@@ -30,7 +28,6 @@ export default function Contact() {
 
     return (
         <>
-            <Navbar />
             <section className="font-poppins snap-start min-h-[calc(100vh-76px)] w-full bg-blue-50 dark:bg-slate-800 flex justify-around items-center" id="contact">
                 <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
                     <div className="mb-4">

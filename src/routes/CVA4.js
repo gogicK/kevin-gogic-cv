@@ -4,15 +4,10 @@ import LanguesHobbies from "../Components/CV/LanguesHobbies.js";
 import Experiences from "../Components/CV/Experiences.js";
 import Formations from "../Components/CV/Formations.js";
 import Competences from "../Components/CV/Competences.js";
-import Navbar from '../Components/Navbar';
-import '../App.css';
-
-
 
 export default function CVA4() {
     return (
         <>
-            <Navbar />
             <main className="p-5 font-poppins outline-gray-200 lg:grid lg:grid-cols-12 gap-4">
                 <div className="order-1 mb-3 col-span-9"><Header /></div>
                 <div className="order-2 mb-3 col-span-3 flex items-center justify-center lg:justify-end"><Contact /></div>

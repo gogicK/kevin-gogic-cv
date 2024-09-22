@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import CVA4 from "./routes/CVA4";
 import About from "./routes/About";
 import HomePage from "./routes/HomePage";
@@ -10,13 +10,16 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path="/kevin-webdev" element={<HomePage />} />
-        <Route path="/kevin-webdev/cvA4" element={<CVA4 />} />
-        <Route path="/kevin-webdev/about" element={<About />} />
-        <Route path="/kevin-webdev/contact" element={<Contact />} />
-      </Routes>
+      <BrowserRouter basename="/kevin-webdev">
+        <Navbar />
+
+        <Routes>
+          <Route index element={<HomePage />} />
+          <Route path="cvA4" element={<CVA4 />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

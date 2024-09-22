@@ -23,12 +23,12 @@ export default function Navbar() {
             <>
                   <nav className="font-poppins font-bold flex items-center lg:justify-end space-x-4 justify-center min-h-[76px] p-4 sticky top-0 z-10 bg-white shadow-xl">
                         <input className="peer hidden" type="checkbox" id="menu-toggle" />
-                        <div className="absolute left-0 top-4"><Link onClick={closeMenu} to={'/kevin-webdev'} >{Icon.logo}</Link></div>
+                        <div className="absolute left-0 top-4"><Link onClick={closeMenu} to={'/'} >{Icon.logo}</Link></div>
                         <ul className="ps-0 hidden text-center lg:!flex lg:!items-center lg:!justify-center lg:!space-x-4 peer-checked:ml-0 peer-checked:block  peer-checked:space-y-6 lg:!space-y-0" id="menu">
                               {[
-                                    ['Accueil', '/kevin-webdev'],
-                                    ['CV classique', '/kevin-webdev/cvA4'],
-                                    ['À propos', '/kevin-webdev/about'],
+                                    ['Accueil', '/'],
+                                    ['CV classique', '/cvA4'],
+                                    ['À propos', '/about'],
                               ].map(([title, url], index) => (
                                     <li key={index}>
                                           <Link onClick={closeMenu} to={url} className="rounded-lg px-3 py-2 text-slate-700 hover:bg-indigo-500 hover:text-white">
@@ -45,7 +45,7 @@ export default function Navbar() {
                                     <DownloadButton onClick={closeMenu} url={process.env.PUBLIC_URL + '/gogic-kevin-cv-dev.pdf'} label="Téléchargez mon CV" />
                               </li>
                               <li>
-                                    <Link onClick={closeMenu} to={'/kevin-webdev/contact'} className="rounded-lg px-3 py-2 text-indigo-500 border-indigo-500 border-2 hover:bg-indigo-500 hover:text-white">
+                                    <Link onClick={closeMenu} to={'/contact'} className="rounded-lg px-3 py-2 text-indigo-500 border-indigo-500 border-2 hover:bg-indigo-500 hover:text-white">
                                           Contactez-moi
                                     </Link>
                               </li>

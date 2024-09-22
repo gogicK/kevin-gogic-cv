@@ -1,11 +1,7 @@
-import Navbar from '../Components/Navbar';
-import '../App.css';
-
 
 export default function About() {
     return (
         <>
-            <Navbar />
             <div className="bg-pattern">
                 <section className='font-poppins flex flex-col justify-center items-center px-10 lg:px-40 min-h-[calc(100vh-76px)] space-y-4 leading-relaxed'>
                     <div className="bg-white p-8 shadow-xl rounded-xl my-4">
