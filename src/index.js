@@ -5,6 +5,7 @@ import HomePage from './routes/HomePage';
 import About from './routes/About';
 import CVA4 from './routes/CVA4';
 import Contact from './routes/Contact';
+import './App.css';
 
 const router = createBrowserRouter([
   {

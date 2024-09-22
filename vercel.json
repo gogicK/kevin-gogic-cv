@@ -2,8 +2,8 @@
     "cleanUrls": true,
     "rewrites": [
         {
-            "source": "/(.*)",
-            "destination": "/"
+            "source": "/_error",
+            "destination": "/kevin-webdev"
         }
     ]
 }
