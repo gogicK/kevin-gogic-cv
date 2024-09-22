@@ -2,8 +2,8 @@
     "cleanUrls": true,
     "rewrites": [
         {
-            "source": "/_error",
-            "destination": "https://kevin-webdev-q1bi.vercel.app/kevin-webdev"
+            "source": "/(.*)",
+            "destination": "/kevin-webdev"
         }
     ]
 }
