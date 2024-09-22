@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "https://kevin-webdev-ovbg.vercel.app/kevin-webdev"
+            "destination": "/"
         }
     ]
 }
