@@ -10,9 +10,8 @@ import Navbar from './Components/Navbar';
 function App() {
   return (
     <>
-      <BrowserRouter basename="/kevin-webdev">
+      <BrowserRouter>
         <Navbar />
-
         <Routes>
           <Route index element={<HomePage />} />
           <Route path="cvA4" element={<CVA4 />} />
