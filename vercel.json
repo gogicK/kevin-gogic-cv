@@ -1,8 +1,0 @@
-{
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "https://kevin-webdev-q1bi.vercel.app/kevin-webdev"
-        }
-    ]
-}
